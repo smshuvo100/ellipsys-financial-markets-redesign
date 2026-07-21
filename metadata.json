@@ -1,0 +1,6 @@
+{
+  "name": "Ellipsys Financial Markets Redesign",
+  "description": "Award-winning, premium corporate redesign of Ellipsys Financial Markets brokerage website, featuring advanced interactive charts, a multi-step live account portal, trading tools, and modular product specs.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
