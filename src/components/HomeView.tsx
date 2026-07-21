@@ -84,6 +84,7 @@ export default function HomeView({ onNavigate }: HomeViewProps) {
     }
     return `M ${points.join(' L ')}`;
   };
+  
 
   return (
     <div className="relative w-full">
