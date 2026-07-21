@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { ShieldCheck, BarChart4, ChevronRight, Play, Users, Clock, Flame, Info, CheckCircle2, DollarSign } from 'lucide-react';
 import { liveQuotes, testimonials, companyTimeline } from '../data';
 import { MainView, InstrumentQuote } from '../types';
+import heroImage from '../assets/images/ellipsys_hero_1784624768142.jpg';
 
 interface HomeViewProps {
   onNavigate: (view: MainView, subView?: string) => void;
@@ -84,7 +85,7 @@ export default function HomeView({ onNavigate }: HomeViewProps) {
     }
     return `M ${points.join(' L ')}`;
   };
-  
+  // import logoImage from '../assets/images/ellipsys_hero_1784624768142.jpg"';
 
   return (
     <div className="relative w-full">
@@ -93,7 +94,7 @@ export default function HomeView({ onNavigate }: HomeViewProps) {
         {/* Background Image with Premium Overlays */}
         <div className="absolute inset-0 z-0">
           <img 
-            src="/src/assets/images/ellipsys_hero_1784624768142.jpg" 
+             src={heroImage} 
             alt="Ellipsys Hero Background" 
             className="w-full h-full object-cover  scale-105 animate-zoom-out"
             referrerPolicy="no-referrer"
